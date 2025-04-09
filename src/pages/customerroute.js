@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import '../style/customerroute.css'
+import BACKEND_URL from '../config';
+
 const NewCustomer = () => {
   const [formData, setFormData] = useState({
     fullname: '',
@@ -45,7 +47,7 @@ const NewCustomer = () => {
     setSuccessMessage('');
     try {
       // Post data to the backend endpoint
-      const response = await axios.post('http://localhost:8080/customer', formData);
+      const response = await axios.post(BACKEND_URL+"/customer", formData);
       setSuccessMessage('Customer saved successfully!');
       console.log('Server response:', response.data);
       // Optionally, reset form fields after success:
