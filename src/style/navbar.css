@@ -1,0 +1,73 @@
+.nav-wrapper {
+    background-color: #edd0c881; 
+    padding: 0.5rem 1rem; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  .container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  }
+  
+  .brand-logo {
+    font-size: 1.5rem; 
+    color: var(--ocean-dark); 
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-family: "cinema sunday-Regular", Helvetica; 
+  }
+  
+  .brand-logo:hover {
+    color: #f4a261;
+  }
+  
+  ul.right {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    gap: 1.5rem;
+    
+  }
+  
+  ul.right li {
+    display: inline;
+  }
+  
+  ul.right li a {
+    color: var(--ocean-dark);
+    text-decoration: none; 
+    font-size: 1.25rem; 
+    transition: color 0.3s ease;
+    font-family: "Cochin-Regular", Helvetica;
+  }
+  
+  ul.right li a:hover {
+    color: #f4a261; 
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .nav-wrapper {
+      flex-direction: column; 
+      align-items: flex-start; 
+    }
+  
+    ul.right {
+      flex-direction: column; 
+      gap: 0.5rem; 
+    }
+  }
+  

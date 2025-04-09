@@ -1,0 +1,94 @@
+
+  
+  .NewCustomer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 1em;
+    font-family: "Cochin-Regular", Helvetica;    margin-top: 40%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10%;
+  }
+  
+  form {
+    display: flex;
+    width: 60%;
+    flex-direction: column;  
+    margin-top: -50%;
+  }
+
+
+  
+  label {
+    font-size: 1rem;
+  
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    resize: none;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  fieldset {
+    margin-top: 40%;
+    align-items: center;
+  }
+  
+  fieldset h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+    
+  }
+  
+  button {
+    background-color: #81706ce2;
+    font-family: "cinema sunday-Regular", Helvetica;
+    color: white;
+    margin-top: 10%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: black;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .NewCustomer {
+      width: 95%;
+      padding: 15px;
+    }
+  
+    button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  } 

@@ -1,0 +1,377 @@
+.the-actors {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.the-actors .div {
+  background-color: transparent;
+  width: 1512px;
+  height: 3700px;
+  position: relative;
+}
+
+.the-actors .actors {
+  height: 1388px;
+  top: 2312px;
+  overflow: hidden;
+  position: absolute;
+  width: 1512px;
+  left: 0;
+}
+
+.the-actors .group {
+  position: relative;
+  width: 1450px;
+  height: 1387px;
+  top: 85px;
+  left: 32px;
+}
+
+.the-actors .footer-dark {
+  position: absolute;
+  width: 1448px;
+  height: 412px;
+  top: 891px;
+  left: 0;
+}
+
+.the-actors .overlap-group {
+  position: absolute;
+  width: 1251px;
+  height: 772px;
+  top: 0;
+  left: 113px;
+}
+
+.the-actors .newportraitcrop {
+  position: absolute;
+  width: 602px;
+  height: 772px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.the-actors .text-wrapper {
+  position: absolute;
+  width: 476px;
+  top: 235px;
+  left: 496px;
+  font-size: 64px;
+  letter-spacing: 9.60px;
+  white-space: nowrap;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  line-height: normal;
+}
+
+.the-actors .line {
+  position: absolute;
+  width: 755px;
+  height: 6px;
+  top: 336px;
+  left: 496px;
+}
+
+.the-actors .img {
+  position: absolute;
+  width: 6px;
+  height: 495px;
+  top: 160px;
+  left: 922px;
+}
+
+.the-actors .group-wrapper {
+  height: 1174px;
+  top: 1133px;
+  position: absolute;
+  width: 1512px;
+  left: 0;
+}
+
+.the-actors .overlap-group-wrapper {
+  position: relative;
+  width: 1330px;
+  height: 1037px;
+  top: 93px;
+  left: 41px;
+}
+
+.the-actors .overlap-group-2 {
+  position: relative;
+  width: 1326px;
+  height: 1037px;
+}
+
+.the-actors .element-f {
+  position: absolute;
+  width: 476px;
+  height: 782px;
+  top: 255px;
+  left: 850px;
+  object-fit: cover;
+}
+
+.the-actors .img-2 {
+  position: absolute;
+  width: 477px;
+  height: 715px;
+  top: 0;
+  left: 103px;
+  object-fit: cover;
+}
+
+.the-actors .text-wrapper-2 {
+  position: absolute;
+  width: 346px;
+  top: 255px;
+  left: 606px;
+  font-size: 64px;
+  letter-spacing: 9.60px;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  line-height: normal;
+}
+
+.the-actors .text-wrapper-3 {
+  position: absolute;
+  width: 725px;
+  top: 813px;
+  left: 229px;
+  font-size: 64px;
+  letter-spacing: 9.60px;
+  white-space: nowrap;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  line-height: normal;
+}
+
+.the-actors .div-wrapper {
+  height: 1084px;
+  top: 0;
+  position: absolute;
+  width: 1512px;
+  left: 0;
+}
+
+.the-actors .group-2 {
+  position: relative;
+  width: 1470px;
+  height: 1039px;
+  top: 45px;
+  left: 21px;
+}
+
+.the-actors .group-3 {
+  position: relative;
+  height: 1039px;
+}
+
+.the-actors .navbar {
+  display: flex;
+  flex-direction: column;
+  width: 1470px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 59px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.the-actors .frame {
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.the-actors .frame-wrapper {
+  display: flex;
+  width: 488px;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  position: relative;
+}
+
+.the-actors .frame-2 {
+  display: inline-flex;
+  gap: 40px;
+  flex: 0 0 auto;
+  align-items: center;
+  position: relative;
+}
+
+.the-actors .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-size: 20px;
+  letter-spacing: 0;
+  white-space: nowrap;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  line-height: normal;
+}
+
+.the-actors .frame-3 {
+  display: inline-flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.the-actors .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: #050609;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.the-actors .text-wrapper-6 {
+  position: relative;
+  width: 241px;
+  height: 21px;
+  margin-top: -0.50px;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--ocean-dark);
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.the-actors .overlap-wrapper {
+  position: absolute;
+  width: 1348px;
+  height: 907px;
+  top: 132px;
+  left: 0;
+}
+
+.the-actors .overlap {
+  position: relative;
+  width: 1346px;
+  height: 907px;
+}
+
+.the-actors .p {
+  position: absolute;
+  width: 476px;
+  top: 300px;
+  left: 249px;
+  font-family: "Cochin-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 4.80px;
+  line-height: normal;
+}
+
+.the-actors .group-4 {
+  position: absolute;
+  width: 481px;
+  height: 178px;
+  top: 272px;
+  left: 248px;
+}
+
+.the-actors .overlap-group-3 {
+  position: relative;
+  width: 477px;
+  height: 250px;
+}
+
+.the-actors .text-wrapper-7 {
+  position: absolute;
+  width: 102px;
+  top: -160px;
+  left: 118px;
+  font-size: 40px;
+  letter-spacing: 6.00px;
+  white-space: nowrap;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  line-height: normal;
+}
+
+.the-actors .text-wrapper-8 {
+  position: absolute;
+  width: 477px;
+  top: -125px;
+  left: 0;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 128px;
+  letter-spacing: 19.20px;
+  line-height: normal;
+}
+
+.the-actors .text-wrapper-8  {
+  background: linear-gradient(
+      to right,
+      #050609 20%,
+      #684756 30%,
+      #d69f7e 50%,
+      #774936 70%,
+      #3c0000 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 8s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+0% {
+    background-position: 0% 50%;
+}
+100% {
+    background-position: 100% 50%;
+}
+}
+
+.the-actors .overlap-2 {
+  position: absolute;
+  width: 1346px;
+  height: 900px;
+  top: 0;
+  left: 0;
+}
+
+.the-actors .rajdeeps-image-jpg {
+  position: absolute;
+  width: 599px;
+  height: 600px;
+  top: 0;
+  left: 675px;
+  object-fit: cover;
+  border-radius: 10px;
+  z-index: -1;
+}

@@ -1,0 +1,130 @@
+
+.the-gallery {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  height: 25%;
+  justify-content: center;
+  width: 100%;
+  position: relative; 
+}
+
+
+.the-gallery .group-wrapper {
+  height: 977px;
+  width: 1512px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.the-gallery .group {
+  position: relative;
+  width: 1470px;
+  height: 870px;
+  top: 45px;
+  left: 21px;
+}
+
+
+
+
+
+.the-gallery .img {
+  width: 100%; 
+  margin-left: 5%;
+  height: auto; 
+  z-index: -1;
+
+
+}
+
+
+.the-gallery .at-the-gilded-leash {
+  width: 50%;
+  margin-top: 30%;
+  margin-left: 10%;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333; 
+  font-family: "Cochin-Regular", Helvetica;
+
+}
+
+.the-gallery .group-2 .text-wrapper {
+  font-size: 64px;
+  font-weight: bold;
+  color: #000; 
+  font-family: "cinema sunday-Regular", Helvetica;
+  text-align: center;
+}
+
+.the-gallery .group-2 .text-wrapper-2 {
+  font-size: 32px;
+  color: black;
+  font-family: "cinema sunday-Regular", Helvetica;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+
+.the-gallery .group-2 {
+
+margin-top: -10%;
+margin-left: 5%;
+}
+
+.the-gallery .text-wrapper {
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 134px;
+  letter-spacing: 14.40px;
+  line-height: normal;
+}
+
+.the-gallery .text-wrapper  {
+  background: linear-gradient(
+      to right,
+      #050609 20%,
+      #684756 30%,
+      #d69f7e 50%,
+      #774936 70%,
+      #3c0000 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-size: 500% auto;
+  animation: textShine 8s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+0% {
+    background-position: 0% 50%;
+}
+100% {
+    background-position: 100% 50%;
+}
+}
+
+.the-gallery .text-wrapper-2 {
+  font-size: 40px;
+  letter-spacing: 6.00px;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+
+
+
+
+

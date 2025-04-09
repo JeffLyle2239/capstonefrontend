@@ -1,0 +1,608 @@
+.the-service {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.the-service .div {
+  background-color: transparent;
+  overflow: hidden;
+  width: 1512px;
+  height: 2545px;
+  position: relative;
+}
+
+.the-service .service {
+  height: 1555px;
+  top: 998px;
+  position: absolute;
+  width: 1512px;
+  left: 0;
+}
+
+.the-service .footer-dark {
+  position: absolute;
+  width: 1448px;
+  height: 397px;
+  top: 1150px;
+  left: 32px;
+}
+
+.the-service .group {
+  position: absolute;
+  width: 1222px;
+  height: 870px;
+  top: 1px;
+  left: 145px;
+}
+
+.the-service .the-untamed-tale {
+  position: absolute;
+  width: 350px;
+  height: 870px;
+  top: 0;
+  left: 0;
+  
+}
+
+.the-service .overlap {
+  width: 348px;
+  position: relative;
+  height: 870px;
+  box-shadow: 5px 10px 8px #888888;
+  border-radius: 10px;
+}
+
+.the-service .price-list {
+  position: absolute;
+  width: 348px;
+  height: 870px;
+  top: 0;
+  left: 0;
+}
+
+.the-service .overlap-group {
+  border-radius: 10px;
+  position: relative;
+  height: 870px;
+}
+
+.the-service .rectangle {
+  position: absolute;
+  width: 348px;
+  height: 870px;
+  top: 0;
+  left: 0;
+  background-color: #edd0c8;
+  border-radius: 10px;
+  box-shadow: 0px 4px 14px #1c41a10a;
+  opacity: 0.25;
+}
+
+.the-service .intro-wrapper {
+  position: absolute;
+  width: 282px;
+  height: 242px;
+  top: 49px;
+  left: 35px;
+}
+
+.the-service .intro {
+  position: relative;
+  width: 288px;
+  height: 242px;
+}
+
+.the-service .button {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 282px;
+  height: 55px;
+  top: 187px;
+  left: 0;
+  background-color: #162b60;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.the-service .choose-plan {
+  position: absolute;
+  width: 147px;
+  top: 17px;
+  left: 68px;
+  font-family: "Archivo", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.the-service .element {
+  position: absolute;
+  width: 185px;
+  top: 109px;
+  left: 55px;
+  font-family: "Archivo", Helvetica;
+  font-weight: 600;
+  color: #162b60;
+  font-size: 55px;
+  letter-spacing: 0;
+  line-height: 46px;
+  white-space: nowrap;
+}
+
+.the-service .text-wrapper {
+  position: absolute;
+  width: 259px;
+  top: 0;
+  left: 18px;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: #162b60;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.the-service .for-most-businesses {
+  position: absolute;
+  width: 80px;
+  top: 39px;
+  left: 107px;
+  font-family: "Cochin-Regular", Helvetica;
+  font-weight: 400;
+  color: #858fab;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.the-service .a-single-high-end {
+  position: absolute;
+  width: 277px;
+  top: 334px;
+  left: 35px;
+  font-family: "Cochin-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.the-service .the-wild-narrative {
+  position: absolute;
+  width: 353px;
+  height: 870px;
+  top: 0;
+  left: 445px;
+}
+
+.the-service .overlap-2 {
+  width: 351px;
+  position: relative;
+  height: 870px;
+  box-shadow: 5px 10px 8px #888888;
+  border-radius: 10px;
+}
+
+.the-service .overlap-group-wrapper {
+  position: absolute;
+  width: 351px;
+  height: 870px;
+  top: 0;
+  left: 0;
+}
+
+.the-service .rectangle-2 {
+  position: absolute;
+  width: 351px;
+  height: 870px;
+  top: 0;
+  left: 0;
+  background-color: #edd0c8;
+  border-radius: 10px;
+  box-shadow: 0px 4px 14px #1c41a10a;
+  opacity: 0.25;
+}
+
+.the-service .div-wrapper {
+  height: 298px;
+  top: 0;
+  left: 34px;
+  position: absolute;
+  width: 282px;
+}
+
+.the-service .intro-2 {
+  position: relative;
+  width: 290px;
+  height: 298px;
+}
+
+.the-service .choose-plan-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 282px;
+  height: 54px;
+  top: 244px;
+  left: 0;
+  background-color: #162b60;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.the-service .choose-plan-2 {
+  position: absolute;
+  width: 147px;
+  top: 16px;
+  left: 68px;
+  font-family: "Archivo", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.the-service .element-2 {
+  width: 185px;
+  top: 167px;
+  left: 55px;
+  position: absolute;
+  font-family: "Archivo", Helvetica;
+  font-weight: 600;
+  color: #162b60;
+  font-size: 55px;
+  letter-spacing: 0;
+  line-height: 46px;
+  white-space: nowrap;
+}
+
+.the-service .text {
+  position: absolute;
+  width: 1px;
+  top: 0;
+  left: 30px;
+  font-family: "Archivo", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 55px;
+  letter-spacing: 0;
+  line-height: 46px;
+  white-space: nowrap;
+}
+
+.the-service .intro-3 {
+  position: absolute;
+  width: 237px;
+  top: 59px;
+  left: 23px;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: #162b60;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.the-service .for-most-businesses-2 {
+  position: absolute;
+  width: 80px;
+  top: 98px;
+  left: 107px;
+  font-family: "Cochin-Regular", Helvetica;
+  font-weight: 400;
+  color: #858fab;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.the-service .everything-in-the {
+  position: absolute;
+  width: 282px;
+  top: 341px;
+  left: 34px;
+  font-family: "Cochin-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.the-service .the-odyssey {
+  position: absolute;
+  width: 348px;
+  height: 870px;
+  top: 0;
+  left: 874px;
+}
+
+.the-service .group-2 {
+  width: 350px;
+  height: 870px;
+  box-shadow: 5px 10px 8px #888888;
+  border-radius: 10px;
+}
+
+.the-service .overlap-group-2 {
+  position: relative;
+  width: 348px;
+  height: 870px;
+  border-radius: 10px;
+}
+
+.the-service .group-3 {
+  height: 242px;
+  top: 49px;
+  left: 33px;
+  position: absolute;
+  width: 282px;
+}
+
+.the-service .element-3 {
+  width: 211px;
+  top: 109px;
+  left: 36px;
+  position: absolute;
+  font-family: "Archivo", Helvetica;
+  font-weight: 600;
+  color: #162b60;
+  font-size: 55px;
+  letter-spacing: 0;
+  line-height: 46px;
+  white-space: nowrap;
+}
+
+.the-service .intro-4 {
+  position: absolute;
+  width: 165px;
+  top: 0;
+  left: 59px;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: #162b60;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.the-service .p {
+  position: absolute;
+  width: 282px;
+  top: 334px;
+  left: 33px;
+  font-family: "Cochin-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.the-service .group-wrapper {
+  height: 1000px;
+  top: -2px;
+  position: absolute;
+  width: 1512px;
+  left: 0;
+}
+
+.the-service .group-4 {
+  position: relative;
+  width: 1472px;
+  height: 846px;
+  top: 47px;
+  left: 21px;
+}
+
+.the-service .overlap-3 {
+  position: absolute;
+  width: 1193px;
+  height: 620px;
+  top: 115px;
+  left: 152px;
+}
+
+.the-service .overlap-4 {
+  position: absolute;
+  width: 1193px;
+  height: 582px;
+  top: 0;
+  left: 0;
+}
+
+.the-service .element-tiger-lady-central {
+  position: absolute;
+  width: 600px;
+  height: 582px;
+  top: 0;
+  left: 593px;
+  object-fit: cover;
+}
+
+.the-service .group-5 {
+  position: absolute;
+  width: 602px;
+  height: 157px;
+  top: 205px;
+  left: 97px;
+}
+
+.the-service .overlap-group-3 {
+  position: relative;
+  width: 598px;
+  height: 157px;
+}
+
+.the-service .text-wrapper-2 {
+  position: absolute;
+  width: 102px;
+  top: 0;
+  left: 124px;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 6.00px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.the-service .text-wrapper-3 {
+  position: absolute;
+  width: 598px;
+  top: 32px;
+  left: 0;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 128px;
+  letter-spacing: 19.20px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.the-service .text-wrapper-3  {
+  background: linear-gradient(
+      to right,
+      #050609 20%,
+      #684756 30%,
+      #d69f7e 50%,
+      #774936 70%,
+      #3c0000 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 8s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+0% {
+    background-position: 0% 50%;
+}
+100% {
+    background-position: 100% 50%;
+}
+}
+
+.the-service .img {
+  position: absolute;
+  width: 850px;
+  height: 6px;
+  top: 386px;
+  left: 13px;
+}
+
+.the-service .text-wrapper-4 {
+  position: absolute;
+  width: 475px;
+  top: 417px;
+  left: 97px;
+  font-family: "Cochin-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.the-service .navbar {
+  display: flex;
+  flex-direction: column;
+  width: 1470px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 59px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.the-service .frame {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.the-service .frame-wrapper {
+  display: flex;
+  width: 488px;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  position: relative;
+}
+
+.the-service .frame-2 {
+  display: inline-flex;
+  gap: 40px;
+  flex: 0 0 auto;
+  align-items: center;
+  position: relative;
+}
+
+.the-service .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.the-service .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: #050609;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.the-service .text-wrapper-7 {
+  position: relative;
+  width: 241px;
+  height: 21px;
+  margin-top: -0.50px;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--ocean-dark);
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+

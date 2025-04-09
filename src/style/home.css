@@ -1,0 +1,586 @@
+.home-page {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .home-page .div {
+    background-color: transparent;
+    width: 1512px;
+    height: 5210px;
+    position: relative;
+  }
+  
+  .home-page .home {
+    height: 1200px;
+    top: 3618px;
+    overflow: hidden;
+    position: absolute;
+    width: 1512px;
+    left: 0;
+  }
+  
+  .home-page .group {
+    position: relative;
+    width: 1448px;
+    height: 1575px;
+    top: 112px;
+    left: 32px;
+  }
+  
+  .home-page .overlap-group-wrapper {
+    position: absolute;
+    width: 1142px;
+    height: 1072px;
+    top: 0;
+    left: 113px;
+  }
+  
+  .home-page .overlap-group {
+    position: relative;
+    width: 1138px;
+    height: 1072px;
+  }
+  
+  .home-page .https-graziamagazine {
+    position: absolute;
+    width: 599px;
+    height: 836px;
+    top: 124px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .home-page .the-gallery {
+    width: 351px;
+    top: 357px;
+    left: 622px;
+    letter-spacing: -3.84px;
+    position: absolute;
+    font-family: "cinema sunday-Regular", Helvetica;
+    font-weight: 400;
+    background: transparent;
+    font-size: 68px;
+    line-height: normal;
+  }
+  .home-page .the-gallery  {
+    background: linear-gradient(
+        to right,
+        #050609 20%,
+        #684756 30%,
+        #d69f7e 50%,
+        #774936 70%,
+        #3c0000 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 8s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
+  
+  .home-page .text-wrapper {
+    position: absolute;
+    width: 476px;
+    top: 436px;
+    left: 622px;
+    font-family: "Cochin-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-page .img {
+    position: absolute;
+    width: 859px;
+    height: 6px;
+    top: 214px;
+    left: 279px;
+  }
+
+  .home-page .footer-dark {
+    position: absolute;
+    width: 1448px;
+    height: 401px;
+    top: 1079px;
+    left: 0;
+  }
+  
+  .home-page .group-wrapper {
+    height: 908px;
+    top: 2710px;
+    overflow: hidden;
+    position: absolute;
+    width: 1512px;
+    left: 0;
+  }
+  
+  .home-page .group-2 {
+    position: relative;
+    width: 1329px;
+    height: 2030px;
+    top: 35px;
+    left: 144px;
+  }
+  
+  .home-page .overlap-group-2 {
+    position: absolute;
+    width: 1325px;
+    height: 797px;
+    top: 0;
+    left: 0;
+  }
+  
+  .home-page .overland-sheepskin {
+    position: absolute;
+    width: 601px;
+    height: 689px;
+    top: 108px;
+    left: 498px;
+    object-fit: cover;
+  }
+  
+  .home-page .the-service {
+    width: 351px;
+    top: 335px;
+
+    letter-spacing: -3.84px;
+    position: absolute;
+    font-family: "cinema sunday-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 68px;
+    line-height: normal;
+  }
+  .home-page .the-service  {
+    background: linear-gradient(
+        to right,
+        #050609 20%,
+        #684756 30%,
+        #d69f7e 50%,
+        #774936 70%,
+        #3c0000 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 8s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
+  
+  .home-page .we-offer-high-end {
+    position: absolute;
+    width: 476px;
+    top: 420px;
+    left: 0;
+    font-family: "Cochin-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-page .home-2 {
+    height: 850px;
+    top: 1856px;
+    position: absolute;
+    width: 1512px;
+    left: 0;
+  }
+  
+  .home-page .overlap-wrapper {
+    position: relative;
+    width: 1124px;
+    height: 641px;
+    top: 73px;
+    left: 124px;
+  }
+  
+  .home-page .overlap {
+    position: relative;
+    width: 1120px;
+    height: 641px;
+  }
+  
+  .home-page .overlap-group-3 {
+    position: absolute;
+    width: 1120px;
+    height: 629px;
+    top: 12px;
+    left: 0;
+  }
+  
+  .home-page .dane-girl-portrait {
+    position: absolute;
+    width: 478px;
+    height: 629px;
+    top: 0;
+    left: 642px;
+    object-fit: cover;
+  }
+  
+  .home-page .the-actors1 {
+    width: 351px;
+    top: 169px;
+    left: 146px;
+    letter-spacing: -3.84px;
+    position: absolute;
+    font-family: "cinema sunday-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 68px;
+    line-height: normal;
+  }
+  .home-page .the-actors1  {
+    background: linear-gradient(
+        to right,
+        #050609 20%,
+        #684756 30%,
+        #d69f7e 50%,
+        #774936 70%,
+        #3c0000 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 8s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
+  
+  .home-page .overlap-2 {
+    position: absolute;
+    width: 474px;
+    height: 596px;
+    top: 0;
+    left: 146px;
+  }
+  
+  .home-page .p {
+    position: absolute;
+    width: 474px;
+    top: 249px;
+    left: 0;
+    font-family: "Cochin-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-page .div-wrapper {
+    height: 874px;
+    top: 982px;
+    background-color: transparent;
+    position: absolute;
+    width: 1512px;
+    left: 0;
+  }
+  
+  .home-page .overlap-3 {
+    position: relative;
+    width: 1224px;
+    height: 765px;
+    top: 91px;
+    left: 59px;
+  }
+  
+  .home-page .group-3 {
+    position: absolute;
+    width: 474px;
+    height: 266px;
+    top: 144px;
+    left: 708px;
+  }
+  
+  .home-page .text-wrapper-2 {
+    position: absolute;
+    width: 441px;
+    top: 85px;
+    left: 29px;
+    font-family: "Cochin-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-page .the-vision {
+    width: 324px;
+    top: 0;
+    left: 0;
+    letter-spacing: -3.84px;
+    position: absolute;
+    font-family: "cinema sunday-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 66px;
+    line-height: normal;
+  }
+  .home-page .the-vision {
+    background: linear-gradient(
+        to right,
+        #050609 20%,
+        #684756 30%,
+        #d69f7e 50%,
+        #774936 70%,
+        #3c0000 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 8s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
+  
+  .home-page .istockphoto {
+    position: absolute;
+    width: 479px;
+    height: 517px;
+    top: 48px;
+    left: 85px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .home-page .group-4 {
+    position: absolute;
+    width: 1224px;
+    height: 765px;
+    top: 0;
+    left: 0;
+  }
+  
+  .home-page .overlap-4 {
+    position: absolute;
+    width: 1060px;
+    height: 652px;
+    top: 113px;
+    left: 85px;
+  }
+  
+  .home-page .overlap-group-4 {
+    position: absolute;
+    width: 851px;
+    height: 652px;
+    top: 0;
+    left: 0;
+  }
+  
+  .home-page .home-3 {
+    height: 982px;
+    top: 0;
+    position: absolute;
+    width: 1512px;
+    left: 0;
+  }
+  
+  .home-page .group-5 {
+    position: relative;
+    width: 1352px;
+    height: 853px;
+    top: 62px;
+    left: 80px;
+  }
+  
+  .home-page .overlap-group-5 {
+    position: absolute;
+    width: 1137px;
+    height: 708px;
+    top: 5px;
+    left: 26px;
+  }
+  
+  .home-page .img-2 {
+    position: absolute;
+    width: 477px;
+    height: 575px;
+    top: 151px;
+    left: 660px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .home-page .group-6 {
+    position: absolute;
+    width: 730px;
+    height: 183px;
+    top: 346px;
+    left: 38px;
+  }
+  
+  .home-page .text-wrapper-3 {
+    position: absolute;
+    width: 726px;
+    top: 67px;
+    left: 0;
+    font-family: "cinema sunday-Regular", Helvetica;
+    font-weight: 400;
+    color: #3b323a;
+    font-size: 128px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .home-page .text-wrapper-3  {
+    background: linear-gradient(
+        to right,
+        #050609 20%,
+        #684756 30%,
+        #d69f7e 50%,
+        #774936 70%,
+        #3c0000 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 8s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
+  
+  .home-page .text-wrapper-4 {
+    width: 104px;
+    top: 0;
+    left: 124px;
+    letter-spacing: 0;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "cinema sunday-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    line-height: normal;
+  }
+  
+  .home-page .frame {
+    display: flex;
+    width: 1352px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .home-page .frame-wrapper {
+    display: flex;
+    width: 488px;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+  }
+  
+  .home-page .frame-2 {
+    display: inline-flex;
+    gap: 40px;
+    flex: 0 0 auto;
+    margin-left: -1.50px;
+    margin-right: -1.50px;
+    align-items: center;
+    position: relative;
+  }
+  
+  .home-page .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "cinema sunday-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home-page .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "cinema sunday-Regular", Helvetica;
+    font-weight: 400;
+    color: #050609;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home-page .frame-3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .home-page .text-wrapper-7 {
+    position: relative;
+    width: 241px;
+    height: 21px;
+    margin-top: -0.50px;
+    font-family: "cinema sunday-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--ocean-dark);
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+ 
+  

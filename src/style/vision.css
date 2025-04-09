@@ -1,0 +1,379 @@
+.the-vision {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.the-vision .div {
+  background-color: transparent;
+  width: 1512px;
+  height: 2749px;
+  position: relative;
+}
+
+.the-vision .vision {
+  height: 1667px;
+  top: 1082px;
+  overflow: hidden;
+  position: absolute;
+  width: 1512px;
+  left: 0;
+}
+
+.the-vision .group {
+  position: relative;
+  width: 1464px;
+  height: 1774px;
+  top: 19px;
+  left: 30px;
+}
+
+.the-vision .overlap {
+  position: absolute;
+  width: 1459px;
+  height: 1224px;
+  top: 0;
+  left: 1px;
+}
+
+.the-vision .overlap-group {
+  position: absolute;
+  width: 1208px;
+  height: 1224px;
+  top: 0;
+  left: 0;
+}
+
+.the-vision .how-to-become-a {
+  position: absolute;
+  width: 600px;
+  height: 340px;
+  top: 215px;
+  left: 115px;
+  object-fit: cover;
+}
+
+.the-vision .text-wrapper {
+  position: absolute;
+  width: 597px;
+  top: 286px;
+  left: 611px;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 7.20px;
+  line-height: normal;
+}
+.the-vision .text-wrapper  {
+  background: linear-gradient(
+      to right,
+      #050609 20%,
+      #684756 30%,
+      #d69f7e 50%,
+      #774936 70%,
+      #3c0000 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 8s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+0% {
+    background-position: 0% 50%;
+}
+100% {
+    background-position: 100% 50%;
+}
+}
+
+.the-vision .img {
+  position: absolute;
+  width: 6px;
+  height: 1224px;
+  top: 0;
+  left: 383px;
+}
+
+.the-vision .overlap-2 {
+  position: absolute;
+  width: 973px;
+  height: 787px;
+  top: 420px;
+  left: 486px;
+}
+
+.the-vision .vp-x {
+  position: absolute;
+  width: 599px;
+  height: 787px;
+  top: 0;
+  left: 374px;
+  object-fit: cover;
+}
+
+.the-vision .text-wrapper-2 {
+  position: absolute;
+  width: 601px;
+  top: 282px;
+  left: 0;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 9.60px;
+  line-height: normal;
+}
+.the-vision .text-wrapper-2  {
+  background: linear-gradient(
+      to right,
+      #050609 20%,
+      #684756 30%,
+      #d69f7e 50%,
+      #774936 70%,
+      #3c0000 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 8s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+0% {
+    background-position: 0% 50%;
+}
+100% {
+    background-position: 100% 50%;
+}
+}
+
+.the-vision .footer-dark {
+  position: absolute;
+  width: 1448px;
+  height: 370px;
+  top: 1278px;
+  left: 0;
+}
+
+.the-vision .vision-2 {
+  height: 1078px;
+  top: 2px;
+  position: absolute;
+  width: 1512px;
+  left: 0;
+}
+
+.the-vision .navbar {
+  display: flex;
+  flex-direction: column;
+  width: 1470px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 59px;
+  position: absolute;
+  top: 45px;
+  left: 19px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.the-vision .frame {
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.the-vision .frame-wrapper {
+  display: flex;
+  width: 488px;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  position: relative;
+}
+
+.the-vision .frame-2 {
+  display: inline-flex;
+  gap: 40px;
+  flex: 0 0 auto;
+  align-items: center;
+  position: relative;
+}
+
+.the-vision .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: #050609;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.the-vision .div-wrapper {
+  display: inline-flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.the-vision .text-wrapper-4 {
+  position: relative;
+  width: 241px;
+  height: 21px;
+  margin-top: -0.50px;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--ocean-dark);
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.the-vision .overlap-wrapper {
+  position: absolute;
+  width: 1227px;
+  height: 893px;
+  top: 165px;
+  left: 141px;
+}
+
+.the-vision .overlap-3 {
+  position: relative;
+  width: 1225px;
+  height: 893px;
+}
+
+.the-vision .overlap-group-2 {
+  position: absolute;
+  width: 1225px;
+  height: 755px;
+  top: 0;
+  left: 0;
+}
+
+.the-vision .element {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  top: 0;
+  left: 627px;
+  object-fit: cover;
+  border-radius: 10px;
+  opacity: .85;
+}
+
+.the-vision .element-2 {
+  position: absolute;
+  width: 357px;
+  height: 707px;
+  top: 48px;
+  left: 0;
+  object-fit: cover;
+}
+
+.the-vision .line-2 {
+  position: absolute;
+  width: 6px;
+  height: 611px;
+  top: 52px;
+  left: 1121px;
+}
+
+.the-vision .line-3 {
+  position: absolute;
+  width: 850px;
+  height: 6px;
+  top: 500px;
+  left: 375px;
+}
+
+.the-vision .group-2 {
+  position: absolute;
+  width: 481px;
+  height: 168px;
+  top: 278px;
+  left: 250px;
+}
+
+.the-vision .text-wrapper-5 {
+  position: absolute;
+  width: 477px;
+  top: -50px;
+  left: 25px;
+  font-family: "cinema sunday-Regular", Helvetica;
+  color: #000000;
+  font-size: 125px;
+  letter-spacing: 19.20px;
+  line-height: normal;
+  white-space: nowrap;
+}
+.the-vision .text-wrapper-5  {
+  background: linear-gradient(
+      to right,
+      #050609 20%,
+      #684756 30%,
+      #d69f7e 50%,
+      #774936 70%,
+      #3c0000 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 8s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+0% {
+    background-position: 0% 50%;
+}
+100% {
+    background-position: 100% 50%;
+}
+}
+
+.the-vision .text-wrapper-6 {
+  position: absolute;
+  width: 118px;
+  top: -90px;
+  left: 90px;
+  font-family: "cinema sunday-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 6.00px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.the-vision .at-the-gilded-leash {
+  position: absolute;
+  width: 724px;
+  top: 425px;
+  left: 377px;
+  font-family: "Cochin-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 3.60px;
+  line-height: normal;
+}
