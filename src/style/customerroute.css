@@ -9,14 +9,14 @@
     font-family: "Cochin-Regular", Helvetica;    margin-top: 40%;
     padding: 20px;
     text-align: center;
-    margin-top: 10%;
+    /* margin-top: 10%; */
   }
   
   form {
     display: flex;
     width: 60%;
     flex-direction: column;  
-    margin-top: -50%;
+    /* margin-top: 50%; */
   }
 
 
