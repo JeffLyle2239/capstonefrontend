@@ -42,12 +42,12 @@ const Customers = () => {
               {customers.map((customer) => (
                 <div className="customer-card" key={customer._id}>
                   <div className="customer-details">
-                    <p><strong>Full Name:</strong> {customer.fullname}</p>
-                    <p><strong>Address:</strong> {customer.address}</p>
-                    <p><strong>Email:</strong> {customer.email}</p>
-                    <p><strong>Phone Number:</strong> {customer.phonenumber}</p>
-                    <p><strong>Plan:</strong> {customer.plan}</p>
-                    <p><strong>Cost:</strong> ${customer.cost}</p>
+                    <p>Full Name: {customer.fullname}</p>
+                    <p>Address: {customer.address}</p>
+                    <p>Email: {customer.email}</p>
+                    <p>Phone Number: {customer.phonenumber}</p>
+                    <p>Plan: {customer.plan}</p>
+                    <p>Cost: ${customer.cost}</p>
                   </div>
                 </div>
               ))}
