@@ -13,14 +13,6 @@
   position: relative;
 }
 
-.the-gallery .gallery {
-  height: 853px;
-  top: 2140px;
-  position: absolute;
-  width: 1512px;
-  left: 0;
-}
-
 .the-gallery .footer-dark {
   position: absolute;
   width: 1448px;
@@ -61,13 +53,6 @@
   height: 717px;
 }
 
-.the-gallery .line {
-  position: absolute;
-  width: 850px;
-  height: 6px;
-  top: 446px;
-  left: 0;
-}
 
 .the-gallery .img {
   position: absolute;
@@ -140,93 +125,6 @@
   white-space: nowrap;
 }
 
-.the-gallery .navbar {
-  display: flex;
-  flex-direction: column;
-  width: 1470px;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 10px;
-  padding: 20px 59px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 10px;
-  overflow: hidden;
-}
 
-.the-gallery .frame {
-  display: flex;
-  justify-content: space-between;
-  align-self: stretch;
-  width: 100%;
-  align-items: center;
-  position: relative;
-  flex: 0 0 auto;
-}
 
-.the-gallery .frame-wrapper {
-  display: flex;
-  width: 488px;
-  justify-content: center;
-  gap: 20px;
-  align-items: center;
-  position: relative;
-}
 
-.the-gallery .frame-2 {
-  display: inline-flex;
-  gap: 40px;
-  flex: 0 0 auto;
-  align-items: center;
-  position: relative;
-}
-
-.the-gallery .text-wrapper-3 {
-  position: relative;
-  width: fit-content;
-  margin-top: -1.00px;
-  font-size: 20px;
-  letter-spacing: 0;
-  font-family: "cinema sunday-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.the-gallery .text-wrapper-4 {
-  position: relative;
-  width: fit-content;
-  margin-top: -1.00px;
-  font-family: "cinema sunday-Regular", Helvetica;
-  font-weight: 400;
-  color: #050609;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.the-gallery .div-wrapper {
-  display: inline-flex;
-  justify-content: center;
-  gap: 5px;
-  align-items: center;
-  position: relative;
-  flex: 0 0 auto;
-}
-
-.the-gallery .text-wrapper-5 {
-  position: relative;
-  width: 241px;
-  height: 21px;
-  margin-top: -0.50px;
-  font-family: "cinema sunday-Regular", Helvetica;
-  font-weight: 400;
-  color: var(--ocean-dark);
-  font-size: 32px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}

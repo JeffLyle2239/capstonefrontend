@@ -1,0 +1,78 @@
+/* General container styles */
+.infinite-scroll-container {
+  width: 80%; /* Adjust width as needed */
+  height: 1500px; /* Full height for the container */
+  overflow-y: hidden; /* Initially hide vertical scrolling */
+  scroll-behavior: smooth; /* Smooth scrolling */
+  background-color: transparent; /* Transparent background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  perspective: 1px; /* Create a 3D perspective */
+  transform-style: preserve-3d; /* Preserve 3D space for child elements */
+  position: absolute; /* Center the container */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Enable scrolling on mouse enter */
+.infinite-scroll-container:hover {
+  overflow-y: scroll; /* Enable vertical scrolling when hovering */
+}
+
+/* Scroll item container */
+.scroll-item {
+  position: relative;
+  width: 100%; /* Full width of the container */
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  transform: translateZ(0); /* Prevent flattening of child elements */
+}
+
+/* Image wrapper */
+.image-wrapper {
+  position: relative; /* Position relative to allow centering */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: auto; /* Allow the wrapper to adapt to the image size */
+  height: 500px; /* Allow the wrapper to adapt to the image size */
+  overflow: hidden;
+  z-index: -1; /* Place behind text */
+}
+
+/* Image settings */
+.image-wrapper img {
+  width: auto; /* Maintain original width */
+  height: auto; /* Maintain original height */
+  max-width: 100%; /* Prevent the image from overflowing the container */
+  max-height: 100%; /* Prevent the image from overflowing the container */
+  transform: translateZ(0); /* Prevent flattening */
+  transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+/* Hover effect for images */
+.image-wrapper img:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Text wrapper */
+.text-wrapper {
+  z-index: 1; /* Place above the image */
+  text-align: center;
+  position: relative;
+  margin-top: 10px;
+}
+
+/* General styles for all text */
+.text-wrapper p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333; /* Dark text color */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Subtle shadow for better readability */
+}

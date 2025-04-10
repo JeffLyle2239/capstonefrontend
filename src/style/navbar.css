@@ -71,3 +71,59 @@
     }
   }
   
+  /* Hamburger Icon */
+.hamburger {
+  display: none;
+  position: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30px;
+  height: 30px;
+  margin-top: .7%;
+  background: black;
+  cursor: pointer;
+  z-index: 3; /* Ensure it stays above other elements */
+}
+
+.hamburger .line {
+  width: 100%;
+  height: 3px;
+  background-color: var(--ocean-dark);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Show Hamburger Icon on Smaller Screens */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  ul.right {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #edd0c881; /* Same as navbar background */
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    z-index: 2;
+  }
+
+  ul.right.open {
+    transform: translateX(0); /* Slide in when menu is open */
+  }
+
+  ul.right li {
+    width: 100%; /* Full width for links */
+  }
+
+  ul.right li a {
+    font-size: 1rem;
+  }
+}

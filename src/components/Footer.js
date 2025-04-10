@@ -17,7 +17,8 @@ const ComponentName = () => {
                     <li><Link to="/Actors">the Actors</Link></li>
                     <li><Link to="/Service">the Service</Link></li>
                     <li><Link to="/Gallery">the Gallery</Link></li>
-                    <li><Link to="/Gallery">Pricing</Link></li>
+                    <li><Link to="/customer">Sign Up</Link></li>
+                    <li><Link to="/Fetch">Admin</Link></li>
                 </ul>
 
                 <ul className="footer-social">

@@ -1,0 +1,48 @@
+.customers-container {
+    margin-top: 15%;
+    max-width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .customers-title {
+    margin-top: 30%;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .no-customers {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+  }
+  
+  .customers-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .customer-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #5e444447;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .customer-details {
+    font-size: 14px;
+    color: black;
+    line-height: 1.4;
+  }
+  
+  .customer-details strong {
+    color: #333;
+    font-size: 16px;
+    text-decoration: underline;
+    padding-right: 10px;
+  }

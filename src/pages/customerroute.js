@@ -47,7 +47,7 @@ const NewCustomer = () => {
     setSuccessMessage('');
     try {
       // Post data to the backend endpoint
-      const response = await axios.post(BACKEND_URL+"/customer", formData);
+      const response = await axios.post(BACKEND_URL+ "/customer", formData);
       setSuccessMessage('Customer saved successfully!');
       console.log('Server response:', response.data);
       // Optionally, reset form fields after success:

@@ -1,6 +1,7 @@
 import React from 'react'
 import '../style/service.css'
 import tigerlady from '../images/1-tiger-lady-central-press-1.png'
+import {Link} from 'react-router-dom'
 
 
 const Service = () => {
@@ -19,7 +20,7 @@ const Service = () => {
                     <div class="rectangle"></div>
                     <div class="intro-wrapper">
                       <div class="intro">
-                        <button class="button"><div class="choose-plan">Book</div></button>
+                        <Link to="/customer"><button class="button"><div class="choose-plan">Book</div></button></Link>
                         <div class="element">$5000</div>
                         <div class="text-wrapper">the Untamed Tale</div>
                         <div class="for-most-businesses">Starting at</div>
@@ -43,7 +44,7 @@ const Service = () => {
                     <div class="rectangle-2"></div>
                     <div class="div-wrapper">
                       <div class="intro-2">
-                        <button class="choose-plan-wrapper"><div class="choose-plan-2">Book</div></button>
+                        <Link to="/customer"><button class="choose-plan-wrapper"><div class="choose-plan-2">Book</div></button></Link>
                         <div class="element-2">$7500</div>
                         <div class="text"></div>
                         <div class="intro-3">the Wild Narrative</div>
@@ -68,7 +69,7 @@ const Service = () => {
                   <div class="rectangle"></div>
                   <div class="group-3">
                     <div class="intro">
-                      <button class="button"><div class="choose-plan">Book</div></button>
+                      <Link to="/customer"><button class="button"><div class="choose-plan">Book</div></button></Link>
                       <div class="element-3">$10,000</div>
                       <div class="intro-4">the Odyssey</div>
                       <div class="for-most-businesses">Starting at</div>
