@@ -10,7 +10,7 @@ const Customers = () => {
   useEffect(() => {
     const fetchCustomers = async () => {
       try {
-        const response = await fetch('http://localhost:8080/customer'); // Updated to match your backend route
+        const response = await fetch(BACKEND_URL+ "/customer"); // Updated to match your backend route
         if (!response.ok) {
           throw new Error('Failed to fetch customers');
         }
