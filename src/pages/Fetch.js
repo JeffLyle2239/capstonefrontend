@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../style/fetch.css'
+import BACKEND_URL from '../config';
 
 const Customers = () => {
   const [customers, setCustomers] = useState([]);
